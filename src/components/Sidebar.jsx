@@ -1,4 +1,4 @@
-import { AiOutlineUser } from "react-icons/ai"; 
+import { AiFillHome, AiOutlineUser } from "react-icons/ai"; 
 import { AiOutlineShoppingCart } from "react-icons/ai"; 
 import { MdDashboard } from "react-icons/md";
 import { Link, NavLink } from "react-router-dom";
@@ -50,6 +50,16 @@ export default function Sidebar() {
                         className={menuClass}
                         >
                         <AiOutlineUser className="mr-4 text-xl"/><span>Customers</span>
+                        </NavLink>
+                    </li>
+
+                    <li>
+                        <NavLink
+                        id="menu-4" 
+                        to="/home"
+                        className={menuClass}
+                        >
+                        <AiFillHome className="mr-4 text-xl"/><span>Home</span>
                         </NavLink>
                     </li>
                 </ul>

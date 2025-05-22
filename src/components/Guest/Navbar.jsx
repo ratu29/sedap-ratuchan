@@ -34,6 +34,9 @@ const Navbar = () => {
         <NavLink to="/testimoni" className={menuClass}>
           Ulasan Pelanggan
         </NavLink> 
+        <NavLink to="/" className={menuClass}>
+          Dashboard
+        </NavLink> 
 
       </ul>
 
